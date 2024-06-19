@@ -1,0 +1,17 @@
+../Drivers/BMI08x-Sensor-API-master/bmi08g.c:160:8:bmi08g_init	24	static
+../Drivers/BMI08x-Sensor-API-master/bmi08g.c:195:8:bmi08g_get_regs	32	static
+../Drivers/BMI08x-Sensor-API-master/bmi08g.c:227:8:bmi08g_set_regs	32	static
+../Drivers/BMI08x-Sensor-API-master/bmi08g.c:258:8:bmi08g_soft_reset	24	static
+../Drivers/BMI08x-Sensor-API-master/bmi08g.c:287:8:bmi08g_get_meas_conf	24	static
+../Drivers/BMI08x-Sensor-API-master/bmi08g.c:315:8:bmi08g_set_meas_conf	24	static
+../Drivers/BMI08x-Sensor-API-master/bmi08g.c:388:8:bmi08g_get_power_mode	24	static
+../Drivers/BMI08x-Sensor-API-master/bmi08g.c:414:8:bmi08g_set_power_mode	24	static
+../Drivers/BMI08x-Sensor-API-master/bmi08g.c:478:8:bmi08g_get_data	32	static
+../Drivers/BMI08x-Sensor-API-master/bmi08g.c:526:8:bmi08g_set_int_config	24	static
+../Drivers/BMI08x-Sensor-API-master/bmi08g.c:563:8:bmi08g_perform_selftest	24	static
+../Drivers/BMI08x-Sensor-API-master/bmi08g.c:634:15:null_ptr_check	24	static
+../Drivers/BMI08x-Sensor-API-master/bmi08g.c:655:15:get_regs	40	static
+../Drivers/BMI08x-Sensor-API-master/bmi08g.c:680:15:set_regs	40	static
+../Drivers/BMI08x-Sensor-API-master/bmi08g.c:705:15:set_gyro_data_ready_int	24	static
+../Drivers/BMI08x-Sensor-API-master/bmi08g.c:778:15:set_int_pin_config	24	static
+../Drivers/BMI08x-Sensor-API-master/bmi08g.c:820:15:set_gyro_selftest	24	static

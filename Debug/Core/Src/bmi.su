@@ -1,0 +1,5 @@
+../Core/Src/bmi.c:37:1:__io_putchar	16	static
+../Core/Src/bmi.c:43:6:bmi088_starting	8	static
+../Core/Src/bmi.c:124:8:stm32_i2c_write	32	static
+../Core/Src/bmi.c:132:8:stm32_i2c_read	32	static
+../Core/Src/bmi.c:139:6:bmi088_read	8	static

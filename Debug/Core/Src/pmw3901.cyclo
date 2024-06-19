@@ -1,0 +1,4 @@
+../Core/Src/pmw3901.c:12:9:PMW3901_init	4
+../Core/Src/pmw3901.c:80:9:WriteReg	2
+../Core/Src/pmw3901.c:113:9:ReadReg	2
+../Core/Src/pmw3901.c:142:9:initRegisters	74

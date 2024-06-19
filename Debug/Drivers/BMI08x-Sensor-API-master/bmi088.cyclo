@@ -1,0 +1,7 @@
+../Drivers/BMI08x-Sensor-API-master/bmi088.c:96:8:bmi088_init	2
+../Drivers/BMI08x-Sensor-API-master/bmi088.c:115:8:bmi088_apply_config_file	2
+../Drivers/BMI08x-Sensor-API-master/bmi088.c:139:8:bmi088_configure_data_synchronization	8
+../Drivers/BMI08x-Sensor-API-master/bmi088.c:198:8:bmi088_configure_anymotion	2
+../Drivers/BMI08x-Sensor-API-master/bmi088.c:229:8:bmi088_get_synchronized_data	6
+../Drivers/BMI08x-Sensor-API-master/bmi088.c:290:8:bmi088_set_data_sync_int_config	4
+../Drivers/BMI08x-Sensor-API-master/bmi088.c:326:15:null_ptr_check	5
