@@ -17,6 +17,8 @@ uint8_t PMW3901_init();
 uint8_t WriteReg(uint8_t reg, uint8_t value);
 uint8_t ReadReg(uint8_t reg);
 uint8_t initRegisters();
+void ReadMotion(int16_t *deltax, int16_t *deltay);
+void pmw3901_read();
 
 
 

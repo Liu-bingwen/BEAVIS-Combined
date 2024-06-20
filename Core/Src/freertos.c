@@ -92,9 +92,12 @@ void MX_FREERTOS_Init(void) {
 
   /* Create the thread(s) */
   /* creation of defaultTask */
-  defaultTaskHandle = osThreadNew(StartDefaultTask, NULL, &defaultTask_attributes);
+  //defaultTaskHandle = osThreadNew(StartDefaultTask, NULL, &defaultTask_attributes);
 
   /* USER CODE BEGIN RTOS_THREADS */
+  xTaskCreate(bmi088_read, "bmi088_read", 128, NULL, osPriorityNormal, NULL);
+
+  xTaskCreate(pmw3901_read, "pmw3901_read", 128, NULL, osPriorityNormal, NULL);
   /* add threads, ... */
   /* USER CODE END RTOS_THREADS */
 
@@ -117,7 +120,7 @@ void StartDefaultTask(void *argument)
   /* Infinite loop */
   for(;;)
   {
-	bmi088_read();
+	//bmi088_read();
     osDelay(1);
   }
   /* USER CODE END StartDefaultTask */
@@ -125,6 +128,8 @@ void StartDefaultTask(void *argument)
 
 /* Private application code --------------------------------------------------*/
 /* USER CODE BEGIN Application */
+
+
 
 /* USER CODE END Application */
 

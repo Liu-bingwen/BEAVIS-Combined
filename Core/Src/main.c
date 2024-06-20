@@ -26,7 +26,6 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "pmw3901.h"
 
 /* USER CODE END Includes */
 
@@ -48,11 +47,9 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-int16_t deltax=0;   //PMW3901
-int16_t deltay=0;	//PMW3901
 uint8_t error = 0;  // Check PMW3901
 uint8_t status = 0; // Check VL53L1X
-uint16_t distance = 0; //VL53L1X
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/

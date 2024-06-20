@@ -40,11 +40,12 @@ Core/Src/freertos.o: ../Core/Src/freertos.c \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
  ../Core/Inc/bmi.h ../Core/Inc/main.h \
- D:/ST/workspace/beavis-combined/Drivers/BMI08x-Sensor-API-master/bmi08x.h \
- D:/ST/workspace/beavis-combined/Drivers/BMI08x-Sensor-API-master/bmi08x_defs.h \
- D:/ST/workspace/beavis-combined/Drivers/BMI08x-Sensor-API-master/bmi088.h \
- ../Core/Inc/i2c.h ../Core/Inc/usart.h ../Core/Inc/gpio.h \
- ../Core/Inc/VL53L1X_api.h ../Core/Inc/vl53l1_platform.h \
+ D:/BEAVIS/cubeworkspace/BEAVIS-Combined/Drivers/BMI08x-Sensor-API-master/bmi08x.h \
+ D:/BEAVIS/cubeworkspace/BEAVIS-Combined/Drivers/BMI08x-Sensor-API-master/bmi08x_defs.h \
+ D:/BEAVIS/cubeworkspace/BEAVIS-Combined/Drivers/BMI08x-Sensor-API-master/bmi088.h \
+ ../Core/Inc/i2c.h ../Core/Inc/usart.h ../Core/Inc/pmw3901.h \
+ ../Core/Inc/spi.h ../Core/Inc/gpio.h ../Core/Inc/VL53L1X_api.h \
+ ../Core/Inc/vl53l1_platform.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
 ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
@@ -90,11 +91,13 @@ Core/Src/freertos.o: ../Core/Src/freertos.c \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:
 ../Core/Inc/bmi.h:
 ../Core/Inc/main.h:
-D:/ST/workspace/beavis-combined/Drivers/BMI08x-Sensor-API-master/bmi08x.h:
-D:/ST/workspace/beavis-combined/Drivers/BMI08x-Sensor-API-master/bmi08x_defs.h:
-D:/ST/workspace/beavis-combined/Drivers/BMI08x-Sensor-API-master/bmi088.h:
+D:/BEAVIS/cubeworkspace/BEAVIS-Combined/Drivers/BMI08x-Sensor-API-master/bmi08x.h:
+D:/BEAVIS/cubeworkspace/BEAVIS-Combined/Drivers/BMI08x-Sensor-API-master/bmi08x_defs.h:
+D:/BEAVIS/cubeworkspace/BEAVIS-Combined/Drivers/BMI08x-Sensor-API-master/bmi088.h:
 ../Core/Inc/i2c.h:
 ../Core/Inc/usart.h:
+../Core/Inc/pmw3901.h:
+../Core/Inc/spi.h:
 ../Core/Inc/gpio.h:
 ../Core/Inc/VL53L1X_api.h:
 ../Core/Inc/vl53l1_platform.h:

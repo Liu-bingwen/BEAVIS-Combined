@@ -1,4 +1,6 @@
-../Core/Src/pmw3901.c:12:9:PMW3901_init	16	static
-../Core/Src/pmw3901.c:80:9:WriteReg	24	static
-../Core/Src/pmw3901.c:113:9:ReadReg	48	static
-../Core/Src/pmw3901.c:142:9:initRegisters	16	static
+../Core/Src/pmw3901.c:16:9:PMW3901_init	16	static
+../Core/Src/pmw3901.c:84:9:WriteReg	24	static
+../Core/Src/pmw3901.c:117:9:ReadReg	48	static
+../Core/Src/pmw3901.c:146:9:initRegisters	16	static
+../Core/Src/pmw3901.c:303:6:ReadMotion	24	static
+../Core/Src/pmw3901.c:310:6:pmw3901_read	8	static

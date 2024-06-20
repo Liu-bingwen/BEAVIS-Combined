@@ -6,8 +6,12 @@
  */
 
 #include "pmw3901.h"
+int16_t deltax=0;
+int16_t deltay=0;
 
 uint8_t message[512] = {'\0'};
+
+
 
 uint8_t PMW3901_init(){
 	HAL_GPIO_WritePin(PIN_CS_GPIO_Port, PIN_CS_Pin,GPIO_PIN_SET);
@@ -293,6 +297,28 @@ uint8_t initRegisters(){
 
 
 		return 0;
+}
+
+
+void ReadMotion(int16_t *deltax, int16_t *deltay){
+	ReadReg(0x02);
+	*deltax  =  ((int16_t)ReadReg(0x04) << 8) | ReadReg(0x03);
+	*deltay  =  ((int16_t)ReadReg(0x06) << 8) | ReadReg(0x05);
+
+}
+
+void pmw3901_read(){
+	ReadMotion(&deltax,&deltay);
+	if(deltax >= -32640 && deltax <-30000 ){
+			deltax  = deltax + 32640;
+
+	}
+
+	if(deltay >= -32640 && deltay <-30000 ){
+	  		deltay  = deltay + 32640;
+
+	}
+	printf("deltaX: %d \t deltaY: %d ",deltax,deltay);
 }
 
 

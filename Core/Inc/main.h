@@ -32,6 +32,7 @@ extern "C" {
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "bmi.h"
+#include "pmw3901.h"
 #include "string.h"
 #include "usart.h"
 #include "gpio.h"
